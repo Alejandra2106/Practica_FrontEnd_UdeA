@@ -1,0 +1,41 @@
+.card-fecha {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contenedor-fecha {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.campo-fecha {
+    margin-top: 6px;
+    width: 200px;
+}
+
+.formato-hint {
+    font-style: italic;
+    color: #757575;
+    margin-left: -15px;
+}
+
+.boton-validar-festivo {
+    top: -25px;
+    background-color: #1976d2;
+    color: white !important;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: none;
+}
+
+.response {
+    margin-top: 12px;
+    font-weight: bold;
+}

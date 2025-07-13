@@ -1,0 +1,26 @@
+.contenedor-formulario {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 6px 0;
+}
+
+.campo-anio {
+    min-width: 180px;
+    margin-top: 0px;
+}
+
+.boton-festivo {
+    top: -25px;
+    background-color: #1976d2;
+    color: white !important;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: none;
+}
+
+.boton-festivo:hover {
+    background-color: #1565c0;
+}
